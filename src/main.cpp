@@ -1,5 +1,5 @@
-#include "raylib.h"
-#include "board.h"
+#include "../inc/raylib/raylib.h"
+#include "../inc/board.h"
 #include <iostream>
 
 // window params

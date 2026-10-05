@@ -1,4 +1,4 @@
-#include "board.h"
+#include "../inc/board.h"
 #include <cmath>
 
 uint8_t Board::getPiece(uint8_t square){
@@ -24,40 +24,40 @@ void Board::setPiece(uint8_t square, uint8_t piece){
 }
 
 void Board::loadSprites(){
-    pieceSprites[wpawn] = LoadTexture("sprites/white/whitePawn.png");
+    pieceSprites[wpawn] = LoadTexture("../sprites/white/whitePawn.png");
     SetTextureFilter(pieceSprites[wpawn], TEXTURE_FILTER_POINT);
     
-    pieceSprites[wknight] = LoadTexture("sprites/white/whiteKnight.png");
+    pieceSprites[wknight] = LoadTexture("../sprites/white/whiteKnight.png");
     SetTextureFilter(pieceSprites[wknight], TEXTURE_FILTER_POINT);    
     
-    pieceSprites[wbishop] = LoadTexture("sprites/white/whiteBishop.png");
+    pieceSprites[wbishop] = LoadTexture("../sprites/white/whiteBishop.png");
     SetTextureFilter(pieceSprites[wbishop], TEXTURE_FILTER_POINT);
     
-    pieceSprites[wrook] = LoadTexture("sprites/white/whiteRook.png");
+    pieceSprites[wrook] = LoadTexture("../sprites/white/whiteRook.png");
     SetTextureFilter(pieceSprites[wrook], TEXTURE_FILTER_POINT);
     
-    pieceSprites[wqueen] = LoadTexture("sprites/white/whiteQueen.png");
+    pieceSprites[wqueen] = LoadTexture("../sprites/white/whiteQueen.png");
     SetTextureFilter(pieceSprites[wqueen], TEXTURE_FILTER_POINT);
     
-    pieceSprites[wking] = LoadTexture("sprites/white/whiteKing.png");
+    pieceSprites[wking] = LoadTexture("../sprites/white/whiteKing.png");
     SetTextureFilter(pieceSprites[wking], TEXTURE_FILTER_POINT);    
     
-    pieceSprites[bpawn] = LoadTexture("sprites/black/blackPawn.png");
+    pieceSprites[bpawn] = LoadTexture("../sprites/black/blackPawn.png");
     SetTextureFilter(pieceSprites[bpawn], TEXTURE_FILTER_POINT);    
     
-    pieceSprites[bknight] = LoadTexture("sprites/black/blackKnight.png");
+    pieceSprites[bknight] = LoadTexture("../sprites/black/blackKnight.png");
     SetTextureFilter(pieceSprites[bknight], TEXTURE_FILTER_POINT);
     
-    pieceSprites[bbishop] = LoadTexture("sprites/black/blackBishop.png");
+    pieceSprites[bbishop] = LoadTexture("../sprites/black/blackBishop.png");
     SetTextureFilter(pieceSprites[bbishop], TEXTURE_FILTER_POINT);
     
-    pieceSprites[brook] = LoadTexture("sprites/black/blackRook.png");
+    pieceSprites[brook] = LoadTexture("../sprites/black/blackRook.png");
     SetTextureFilter(pieceSprites[brook], TEXTURE_FILTER_POINT);
     
-    pieceSprites[bqueen] = LoadTexture("sprites/black/blackQueen.png");
+    pieceSprites[bqueen] = LoadTexture("../sprites/black/blackQueen.png");
     SetTextureFilter(pieceSprites[bqueen], TEXTURE_FILTER_POINT);
     
-    pieceSprites[bking] = LoadTexture("sprites/black/blackKing.png");
+    pieceSprites[bking] = LoadTexture("../sprites/black/blackKing.png");
     SetTextureFilter(pieceSprites[bking], TEXTURE_FILTER_POINT);
 }
 

@@ -1,8 +1,7 @@
 #pragma once
 #include <cstdint>
-#include "raylib.h"
+#include "raylib/raylib.h"
 
-// positive = white, negative = black
 enum Piece{
     wpawn = 0, wknight = 1, wbishop = 2, wrook = 3, wqueen = 4, wking = 5,
     bpawn = 6, bknight = 7, bbishop = 8, brook = 9, bqueen = 10, bking = 11,
